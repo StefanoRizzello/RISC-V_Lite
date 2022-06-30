@@ -1,0 +1,133 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.11-s080_1, built Fri Aug 4 11:13:11 PDT 2017
+Options:	
+Date:		Sun Feb 13 18:38:27 2022
+Host:		localhost.localdomain (x86_64 w/Linux 3.10.0-957.5.1.el7.x86_64) (1core*2cpus*Westmere E56xx/L56xx/X56xx (Nehalem-C) 4096KB)
+OS:		CentOS Linux release 7.6.1810 (Core) 
+
+License:
+		invs	Innovus Implementation System	17.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getDrawView
+<CMD> loadWorkspace -name Physical
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+**ERROR: (TCLCMD-989):	cannot open SDC file '/home/isa18_2021_2022/github/isa/lab3/riscv/innovus/RV32I.enc.dat/libs/mmmc/RV32I.sdc' for mode 'SDC_layout'
+
+
+ERROR: 
+
+
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 29)
+
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+**ERROR: (TCLCMD-989):	cannot open SDC file '/home/isa18_2021_2022/github/isa/lab3/riscv/innovus/RV32I.enc.dat/libs/mmmc/RV32I.sdc' for mode 'SDC_layout'
+
+
+ERROR: 
+
+
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 29)
+
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+**ERROR: (TCLCMD-989):	cannot open SDC file '/home/isa18_2021_2022/github/isa/lab3/riscv/innovus/RV32I.enc.dat/libs/mmmc/RV32I.sdc' for mode 'SDC_layout'
+
+
+ERROR: 
+
+
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 29)
+
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+**ERROR: (TCLCMD-989):	cannot open SDC file '/home/isa18_2021_2022/github/isa/lab3/riscv/innovus/RV32I.enc.dat/libs/mmmc/RV32I.sdc' for mode 'SDC_layout'
+
+
+ERROR: 
+
+
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 29)
+
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+**ERROR: (TCLCMD-989):	cannot open SDC file '/home/isa18_2021_2022/github/isa/lab3/riscv/innovus/RV32I.enc.dat/libs/mmmc/RV32I.sdc' for mode 'SDC_layout'
+
+
+ERROR: 
+
+
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 29)
+
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+**WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+**ERROR: (TCLCMD-989):	cannot open SDC file '/home/isa18_2021_2022/github/isa/lab3/riscv/innovus/RV32I.enc.dat/libs/mmmc/RV32I.sdc' for mode 'SDC_layout'
+
+
+ERROR: 
+
+
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 29)
+
+<CMD> setDrawView fplan
+<CMD> setDrawView ameba
+<CMD> setDrawView place
+<CMD> get_visible_nets
+<CMD> get_visible_nets
+<CMD> setDrawView fplan
+<CMD> setDrawView fplan
+<CMD> setDrawView fplan
+<CMD> setDrawView fplan
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> zoomSelected
+<CMD> zoomSelected
+
+*** Memory Usage v#1 (Current mem = 515.293M, initial mem = 187.684M) ***
+*** Message Summary: 6 warning(s), 6 error(s)
+
+--- Ending "Innovus" (totcpu=0:01:01, real=0:05:08, mem=515.3M) ---

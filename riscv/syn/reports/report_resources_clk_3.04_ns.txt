@@ -1,0 +1,64 @@
+ 
+****************************************
+Report : resources
+Design : RV32I
+Version: O-2018.06-SP4
+Date   : Sat Feb 12 17:10:47 2022
+****************************************
+
+Resource Sharing Report for design RV32I in file ../hdl/src/fetch_stage.vhd
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r631     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_69_3 |
+               |                      |
+|          |              |            |               | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_91_2 |
+| r632     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_69_4 |
+               |                      |
+|          |              |            |               | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_91_3 |
+| r673     | DW01_add     | width=32   |               | fetch_stage_1/add_116 |
+| r675     | DW01_add     | width=32   |               | decode_stage_1/add_146 |
+| r681     | DW01_add     | width=32   |               | execute_stage_1/alu_inst/add_sub_1/add_56 |
+| r687     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_74_2 |
+| r689     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_74_3 |
+| r691     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_78_2 |
+| r693     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_78_3 |
+| r695     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_54_3 |
+| r697     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_54_4 |
+| r699     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_56_2 |
+| r701     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_62_3 |
+| r703     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_62_4 |
+| r705     | DW_cmp       | width=5    |               | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_64_2 |
+| r707     | DW_cmp       | width=5    |               | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_57_3 |
+| r709     | DW_cmp       | width=5    |               | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_57_4 |
+| r711     | DW_cmp       | width=5    |               | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_59_2 |
+| r713     | DW_cmp       | width=5    |               | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_65_3 |
+| r715     | DW_cmp       | width=5    |               | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_65_4 |
+| r717     | DW_cmp       | width=5    |               | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_67_2 |
+| r1301    | DW01_sub     | width=32   |               | sub_1_root_execute_stage_1/absolute_value_1/add_52_ni |
+| r1303    | DW01_inc     | width=32   |               | add_0_root_execute_stage_1/absolute_value_1/add_52_ni |
+| r1887    | DW01_sub     | width=32   |               | sub_1_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni |
+| r1889    | DW01_inc     | width=32   |               | add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni    |                |
+|                    | DW01_inc         | pparch (area,speed)                 |
+| execute_stage_1/alu_inst/add_sub_1/add_56                  |                |
+|                    | DW01_add         | pparch (area,speed)                 |
+| add_0_root_execute_stage_1/absolute_value_1/add_52_ni      |                |
+|                    | DW01_inc         | rpl                |                |
+| fetch_stage_1/add_116                 |                    |                |
+|                    | DW01_add         | rpl                |                |
+| decode_stage_1/add_146                |                    |                |
+|                    | DW01_add         | rpl                |                |
+===============================================================================
+
+1

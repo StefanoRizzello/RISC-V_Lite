@@ -1,0 +1,73 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'RV32I' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RV32I
+Version: O-2018.06-SP4
+Date   : Sat Feb 12 16:51:14 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: decode_stage_1/register_file/sel_delay2_reg[2]
+              (rising edge-triggered flip-flop clocked by MY_CLK')
+  Endpoint: fetch_stage_1/PC/Q_reg[28]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  RV32I              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK' (rise edge)                               1.08       1.08
+  clock network delay (ideal)                             0.00       1.08
+  decode_stage_1/register_file/sel_delay2_reg[2]/CK (DFFR_X1)
+                                                          0.00       1.08 r
+  decode_stage_1/register_file/sel_delay2_reg[2]/Q (DFFR_X1)
+                                                          0.10       1.18 r
+  U5739/ZN (NOR2_X1)                                      0.03       1.20 f
+  U4426/ZN (AND2_X1)                                      0.04       1.25 f
+  U3882/ZN (AND2_X2)                                      0.05       1.29 f
+  U4491/Z (BUF_X1)                                        0.04       1.33 f
+  U5291/ZN (AOI22_X1)                                     0.04       1.38 r
+  U5290/ZN (OAI221_X1)                                    0.05       1.43 f
+  U6678/ZN (NOR4_X1)                                      0.07       1.50 r
+  U4447/ZN (AND2_X1)                                      0.05       1.55 r
+  U8660/ZN (OAI222_X1)                                    0.05       1.60 f
+  U4900/ZN (XNOR2_X1)                                     0.07       1.67 f
+  U4897/ZN (NOR4_X1)                                      0.09       1.76 r
+  U5745/ZN (NAND4_X1)                                     0.05       1.81 f
+  U6501/ZN (NOR2_X1)                                      0.04       1.85 r
+  U4320/ZN (NAND2_X1)                                     0.03       1.88 f
+  U4483/ZN (OAI21_X1)                                     0.05       1.93 r
+  U4059/ZN (AND2_X2)                                      0.05       1.98 r
+  U4642/Z (CLKBUF_X3)                                     0.06       2.04 r
+  U6503/ZN (AOI22_X1)                                     0.04       2.08 f
+  U4157/ZN (NAND2_X1)                                     0.03       2.11 r
+  fetch_stage_1/PC/Q_reg[28]/D (DFFR_X2)                  0.01       2.12 r
+  data arrival time                                                  2.12
+
+  clock MY_CLK (rise edge)                                2.15       2.15
+  clock network delay (ideal)                             0.00       2.15
+  clock uncertainty                                      -0.07       2.08
+  fetch_stage_1/PC/Q_reg[28]/CK (DFFR_X2)                 0.00       2.08 r
+  library setup time                                     -0.03       2.05
+  data required time                                                 2.05
+  --------------------------------------------------------------------------
+  data required time                                                 2.05
+  data arrival time                                                 -2.12
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.07
+
+
+1

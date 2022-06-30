@@ -1,0 +1,305 @@
+# do scripts/run_riscv_cmd.do RV32I 
+# Loading project RV32I
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/absolute_value.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity absolute_value
+# -- Compiling architecture str of absolute_value
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/add_sub.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity add_sub
+# -- Compiling architecture str of add_sub
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/alu_control.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity alu_control
+# -- Compiling architecture str of alu_control
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/alu.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity alu
+# -- Compiling architecture str of alu
+# -- Loading entity add_sub
+# -- Loading entity barrel_shifter
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/barrel_shifter.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity barrel_shifter
+# -- Compiling architecture str of barrel_shifter
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/branch_forwarding_unit.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity branch_forwarding_unit
+# -- Compiling architecture str of branch_forwarding_unit
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/control.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture str of control
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/dec_5to32.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity dec_5to32
+# -- Compiling architecture arch of dec_5to32
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/decode_stage_control.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decode_stage_control
+# -- Compiling architecture str of decode_stage_control
+# -- Loading entity control
+# -- Loading entity hazard_unit
+# -- Loading entity mux_2to1_stall
+# -- Loading entity branch_forwarding_unit
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/decode_stage.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity decode_stage
+# -- Compiling architecture str of decode_stage
+# -- Loading entity mux_4to1
+# -- Loading entity equality_checker
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/equality_checker.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity equality_checker
+# -- Compiling architecture str of equality_checker
+# -- Loading entity unary_and
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/execute_stage_control.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity execute_stage_control
+# -- Compiling architecture str of execute_stage_control
+# -- Loading entity alu_control
+# -- Loading entity forwarding_unit
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/execute_stage.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity execute_stage
+# -- Compiling architecture str of execute_stage
+# -- Loading entity mux_4to1
+# -- Loading entity absolute_value
+# -- Loading entity mux_2to1
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/fetch_stage.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity fetch_stage
+# -- Compiling architecture str of fetch_stage
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/forwarding_unit.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity forwarding_unit
+# -- Compiling architecture str of forwarding_unit
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/hazard_unit.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity hazard_unit
+# -- Compiling architecture str of hazard_unit
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/immediate_generator.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity immediate_generator
+# -- Compiling architecture str of immediate_generator
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/mem_stage_control.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mem_stage_control
+# -- Compiling architecture str of mem_stage_control
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/mem_stage.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mem_stage
+# -- Compiling architecture str of mem_stage
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/mux_2to1_bit.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_2to1_bit
+# -- Compiling architecture str of mux_2to1_bit
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/mux_2to1_stall.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_2to1_stall
+# -- Compiling architecture str of mux_2to1_stall
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/mux_2to1.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux_2to1
+# -- Compiling architecture arch of mux_2to1
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/mux_32to1.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package param_pkg
+# -- Compiling entity mux_32to1
+# -- Compiling architecture arch of mux_32to1
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/mux_4to1.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_4to1
+# -- Compiling architecture str of mux_4to1
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/param_pkg.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling package param_pkg
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/ram.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity ram
+# -- Compiling architecture rtl of ram
+# ** Warning: [9] /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/ram.vhd(47): (vcom-1013) Initial value of "data_file" depends on value of signal "filename".
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/reg_file.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package param_pkg
+# -- Compiling entity reg_file
+# -- Compiling architecture arch of reg_file
+# -- Loading entity reg
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/reg.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity reg
+# -- Compiling architecture arch of reg
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/RV32I_control.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity rv32i_control
+# -- Compiling architecture str of rv32i_control
+# -- Loading entity decode_stage_control
+# -- Loading entity execute_stage_control
+# -- Loading entity mem_stage_control
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/RV32I_debug.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity rv32i
+# -- Compiling architecture str of rv32i
+# -- Loading entity fetch_stage
+# -- Loading entity decode_stage
+# -- Loading entity execute_stage
+# -- Loading entity mem_stage
+# -- Loading entity wb_stage
+# -- Loading entity rv32i_control
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/RV32I_tb.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity rv32i_tb
+# -- Compiling architecture arch of rv32i_tb
+# -- Loading package numeric_std
+# -- Loading entity rv32i
+# -- Compiling configuration rv32i_tb_arch_cfg
+# -- Loading entity rv32i_tb
+# -- Loading architecture arch of rv32i_tb
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/unary_AND.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity unary_and
+# -- Compiling architecture str of unary_and
+# vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra/hdl/src/wb_stage.vhd
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity wb_stage
+# -- Compiling architecture str of wb_stage
+# -- Loading entity mux_4to1
+# 33 compiles, 0 failed with no errors. 
+# vsim -t ns work.rv32i_tb 
+# //  ModelSim SE 6.2g Feb 21 2007 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.rv32i_tb(arch)
+# Loading work.rv32i(str)
+# Loading work.fetch_stage(str)
+# Loading work.reg(arch)
+# Loading work.mux_2to1(arch)
+# Loading work.decode_stage(str)
+# Loading work.param_pkg
+# Loading work.reg_file(arch)
+# Loading work.dec_5to32(arch)
+# Loading work.mux_32to1(arch)
+# Loading work.immediate_generator(str)
+# Loading work.mux_4to1(str)
+# Loading work.equality_checker(str)
+# Loading work.unary_and(str)
+# Loading work.execute_stage(str)
+# Loading work.alu(str)
+# Loading work.add_sub(str)
+# Loading work.barrel_shifter(str)
+# Loading work.mux_2to1_bit(str)
+# Loading work.absolute_value(str)
+# Loading work.mem_stage(str)
+# Loading work.wb_stage(str)
+# Loading work.rv32i_control(str)
+# Loading work.decode_stage_control(str)
+# Loading work.control(str)
+# Loading work.hazard_unit(str)
+# Loading work.mux_2to1_stall(str)
+# Loading work.branch_forwarding_unit(str)
+# Loading work.execute_stage_control(str)
+# Loading work.alu_control(str)
+# Loading work.forwarding_unit(str)
+# Loading work.mem_stage_control(str)
+# reading /software/mentor/modelsim_6.2g/linux/../modelsim.ini

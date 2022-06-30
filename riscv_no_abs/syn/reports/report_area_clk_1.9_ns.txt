@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : RV32I
+Version: O-2018.06-SP4
+Date   : Sat Feb 12 19:19:25 2022
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db)
+
+Number of ports:                          586
+Number of nets:                          8733
+Number of cells:                         7261
+Number of combinational cells:           5638
+Number of sequential cells:              1607
+Number of macros/black boxes:               0
+Number of buf/inv:                       1513
+Number of references:                      52
+
+Combinational area:               7067.619997
+Buf/Inv area:                     1010.533996
+Noncombinational area:            8572.914277
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 15640.534274
+Total area:                 undefined
+1

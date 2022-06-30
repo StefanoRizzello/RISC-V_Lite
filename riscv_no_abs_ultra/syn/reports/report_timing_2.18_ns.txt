@@ -1,0 +1,75 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'RV32I' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RV32I
+Version: O-2018.06-SP4
+Date   : Sat Feb 12 20:27:04 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: decode_stage_1/register_file/sel_delay2_reg[2]
+              (rising edge-triggered flip-flop clocked by MY_CLK')
+  Endpoint: fetch_stage_1/PC/Q_reg[15]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  RV32I              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK' (rise edge)                               1.09       1.09
+  clock network delay (ideal)                             0.00       1.09
+  decode_stage_1/register_file/sel_delay2_reg[2]/CK (DFFR_X1)
+                                                          0.00       1.09 r
+  decode_stage_1/register_file/sel_delay2_reg[2]/Q (DFFR_X1)
+                                                          0.10       1.19 r
+  U5657/ZN (AND2_X1)                                      0.05       1.24 r
+  U5658/ZN (NAND2_X1)                                     0.04       1.28 f
+  U5679/ZN (NOR2_X1)                                      0.07       1.35 r
+  U4979/Z (BUF_X1)                                        0.08       1.43 r
+  U5971/ZN (AOI22_X1)                                     0.04       1.47 f
+  U4846/ZN (NAND4_X1)                                     0.03       1.51 r
+  U4845/ZN (NOR2_X1)                                      0.02       1.53 f
+  U5362/ZN (NAND2_X1)                                     0.03       1.56 r
+  U7145/ZN (NAND2_X1)                                     0.03       1.59 f
+  U7152/ZN (NAND2_X1)                                     0.03       1.62 r
+  U5350/ZN (OR2_X1)                                       0.03       1.65 r
+  U7167/ZN (NAND4_X1)                                     0.04       1.70 f
+  U7175/ZN (NOR2_X1)                                      0.04       1.73 r
+  U7193/ZN (AND2_X1)                                      0.04       1.77 r
+  U5049/ZN (NAND3_X1)                                     0.03       1.80 f
+  U7332/ZN (NOR3_X1)                                      0.04       1.84 r
+  U7333/ZN (OR2_X1)                                       0.04       1.89 r
+  U7364/ZN (INV_X1)                                       0.03       1.92 f
+  U8245/Z (BUF_X2)                                        0.05       1.96 f
+  U8246/ZN (AOI222_X1)                                    0.11       2.07 r
+  U8247/ZN (INV_X1)                                       0.02       2.09 f
+  fetch_stage_1/PC/Q_reg[15]/D (DFFR_X1)                  0.01       2.10 f
+  data arrival time                                                  2.10
+
+  clock MY_CLK (rise edge)                                2.18       2.18
+  clock network delay (ideal)                             0.00       2.18
+  clock uncertainty                                      -0.07       2.11
+  fetch_stage_1/PC/Q_reg[15]/CK (DFFR_X1)                 0.00       2.11 r
+  library setup time                                     -0.04       2.07
+  data required time                                                 2.07
+  --------------------------------------------------------------------------
+  data required time                                                 2.07
+  data arrival time                                                 -2.10
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+1

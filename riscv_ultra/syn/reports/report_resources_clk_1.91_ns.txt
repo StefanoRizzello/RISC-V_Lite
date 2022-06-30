@@ -1,0 +1,88 @@
+ 
+****************************************
+Report : resources
+Design : RV32I
+Version: O-2018.06-SP4
+Date   : Sat Feb 12 17:09:56 2022
+****************************************
+
+
+Resource Report for this hierarchy in file ../hdl/src/fetch_stage.vhd
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| add_x_1        | DW01_add       | width=32   | fetch_stage_1/add_116 (fetch_stage.vhd:116) |
+| add_x_3        | DW01_add       | width=32   | decode_stage_1/add_146 (decode_stage.vhd:146) |
+| eq_x_185       | DW_cmp         | width=5    | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_54_4 (branch_forwarding_unit.vhd:54) |
+| eq_x_186       | DW_cmp         | width=5    | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_62_4 (branch_forwarding_unit.vhd:62) |
+| eq_x_195       | DW_cmp         | width=5    | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_57_4 (forwarding_unit.vhd:57) |
+| eq_x_196       | DW_cmp         | width=5    | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_65_4 (forwarding_unit.vhd:65) |
+| eq_x_238       | DW_cmp         | width=5    | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_69_3 (hazard_unit.vhd:69) |
+|  | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_74_2 (hazard_unit.vhd:74) |
+|  | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_78_2 (hazard_unit.vhd:78) |
+|  | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_91_2 (hazard_unit.vhd:91) |
+| eq_x_239       | DW_cmp         | width=5    | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_69_4 (hazard_unit.vhd:69) |
+|  | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_74_3 (hazard_unit.vhd:74) |
+|  | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_78_3 (hazard_unit.vhd:78) |
+|  | RV32I_control_1/decode_stage_control_1/hazard_unit_1/eq_91_3 (hazard_unit.vhd:91) |
+| eq_x_240       | DW_cmp         | width=5    | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_54_3 (branch_forwarding_unit.vhd:54) |
+|  | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_56_2 (branch_forwarding_unit.vhd:56) |
+| eq_x_241       | DW_cmp         | width=5    | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_62_3 (branch_forwarding_unit.vhd:62) |
+|  | RV32I_control_1/decode_stage_control_1/branch_forwarding_unit_1/eq_64_2 (branch_forwarding_unit.vhd:64) |
+| eq_x_242       | DW_cmp         | width=5    | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_57_3 (forwarding_unit.vhd:57) |
+|  | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_59_2 (forwarding_unit.vhd:59) |
+| eq_x_243       | DW_cmp         | width=5    | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_65_3 (forwarding_unit.vhd:65) |
+|  | RV32I_control_1/execute_stage_control_1/forwarding_unit_1/eq_67_2 (forwarding_unit.vhd:67) |
+| DP_OP_370J1_122_8077            |            |                            |
+|                | DP_OP_370J1_122_8077 |      |                            |
+| sub_x_244      | DW01_sub       | width=32   | execute_stage_1/absolute_value_1/add_52_ni (absolute_value.vhd:52) |
+|      | execute_stage_1/absolute_value_1/sub_add_52 (absolute_value.vhd:52) |
+=============================================================================
+
+Datapath Report for DP_OP_370J1_122_8077
+==============================================================================
+| Cell                 | Contained Operations                                |
+==============================================================================
+| DP_OP_370J1_122_8077 | execute_stage_1/alu_inst/add_sub_1/sub_add_50 (add_sub.vhd:50) |
+            | execute_stage_1/alu_inst/add_sub_1/add_50_ni (add_sub.vhd:50) |
+             | execute_stage_1/alu_inst/add_sub_1/C75 (add_sub.vhd:49) |
+                   | execute_stage_1/alu_inst/add_sub_1/add_56 (add_sub.vhd:56) |
+==============================================================================
+
+==============================================================================
+|       |      | Data     |       |                                          |
+| Var   | Type | Class    | Width | Expression                               |
+==============================================================================
+| I1    | PI   | Signed   | 32    |                                          |
+| I2    | PI   | Unsigned | 1     |                                          |
+| I3    | PI   | Unsigned | 1     |                                          |
+| I4    | PI   | Signed   | 32    |                                          |
+| T352  | IFO  | Signed   | 32    | -I1 + $unsigned(32'b00000000000000000000000000000000) (add_sub.vhd:50) |
+| T22   | IFO  | Unsigned | 32    | { I2, I3 } ? T352 : I1 (add_sub.vhd:49)  |
+| O1    | PO   | Unsigned | 32    | I4 + T22 (add_sub.vhd:56)                |
+==============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| add_x_1            | DW01_add         | apparch (area)     |                |
+| add_x_3            | DW01_add         | pparch (area,speed)                 |
+| eq_x_185           | DW_cmp           | apparch (area)     |                |
+| eq_x_186           | DW_cmp           | apparch (area)     |                |
+| eq_x_195           | DW_cmp           | apparch (area)     |                |
+| eq_x_196           | DW_cmp           | apparch (area)     |                |
+| eq_x_238           | DW_cmp           | apparch (area)     |                |
+| eq_x_239           | DW_cmp           | apparch (area)     |                |
+| eq_x_240           | DW_cmp           | apparch (area)     |                |
+| eq_x_241           | DW_cmp           | apparch (area)     |                |
+| eq_x_242           | DW_cmp           | apparch (area)     |                |
+| eq_x_243           | DW_cmp           | apparch (area)     |                |
+| sub_x_244          | DW01_sub         | pparch (area,speed)                 |
+| DP_OP_370J1_122_8077                  |                    |                |
+|                    | DP_OP_370J1_122_8077 | str (area,speed)                |
+===============================================================================
+
+1

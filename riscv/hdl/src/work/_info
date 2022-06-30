@@ -1,0 +1,54 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/stefano/github/isa/lab3/riscv/hdl/src
+Ehazard_unit
+Z1 w1644774245
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z5 8hazard_unit.vhd
+Z6 Fhazard_unit.vhd
+l0
+L24 1
+VB4dljBzPT^4PB^PmLfFKl1
+!s100 1V>JgoWDJIiL4A;VB6WYd2
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1644774245
+!i10b 1
+Z9 !s108 1644774245.000000
+Z10 !s90 -93|-work|work|hazard_unit.vhd|
+Z11 !s107 hazard_unit.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Astr
+R2
+R3
+R4
+Z14 DEx4 work 11 hazard_unit 0 22 B4dljBzPT^4PB^PmLfFKl1
+!i122 2
+l53
+L47 164
+VhNkAPY4dzEkCnS:gF=G830
+!s100 iFj1j`;J9E10iNYJQ::Yd3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13

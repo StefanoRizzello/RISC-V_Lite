@@ -1,0 +1,114 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'RV32I' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RV32I
+Version: O-2018.06-SP4
+Date   : Sat Feb 12 19:33:41 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: decode_stage_1/read_data2_execute_reg[5]
+              (rising edge-triggered flip-flop clocked by MY_CLK')
+  Endpoint: execute_stage_1/alu_result_mem_reg[0]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  RV32I              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK' (rise edge)                               1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  decode_stage_1/read_data2_execute_reg[5]/CK (DFFR_X1)
+                                                          0.00       1.50 r
+  decode_stage_1/read_data2_execute_reg[5]/Q (DFFR_X1)
+                                                          0.08       1.58 f
+  U8033/ZN (AOI22_X1)                                     0.05       1.63 r
+  U3855/ZN (NAND2_X1)                                     0.03       1.66 f
+  U3856/ZN (AOI22_X1)                                     0.05       1.72 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/A[5] (RV32I_DW01_inc_2)
+                                                          0.00       1.72 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U168/ZN (NAND2_X1)
+                                                          0.04       1.75 f
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U163/ZN (NOR2_X1)
+                                                          0.04       1.79 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U160/ZN (NAND2_X1)
+                                                          0.03       1.82 f
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U151/ZN (NOR2_X1)
+                                                          0.05       1.87 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U16/CO (HA_X1)
+                                                          0.06       1.93 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U15/CO (HA_X1)
+                                                          0.06       1.98 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U14/CO (HA_X1)
+                                                          0.06       2.04 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U13/CO (HA_X1)
+                                                          0.06       2.10 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U12/CO (HA_X1)
+                                                          0.06       2.16 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U11/CO (HA_X1)
+                                                          0.06       2.22 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U10/CO (HA_X1)
+                                                          0.06       2.27 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U9/CO (HA_X1)
+                                                          0.06       2.33 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U8/CO (HA_X1)
+                                                          0.06       2.39 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U7/CO (HA_X1)
+                                                          0.06       2.45 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U6/CO (HA_X1)
+                                                          0.06       2.51 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U5/CO (HA_X1)
+                                                          0.06       2.56 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U4/CO (HA_X1)
+                                                          0.06       2.62 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U3/CO (HA_X1)
+                                                          0.06       2.68 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U2/CO (HA_X1)
+                                                          0.06       2.74 r
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/U124/ZN (XNOR2_X1)
+                                                          0.03       2.77 f
+  add_0_root_execute_stage_1/alu_inst/add_sub_1/add_50_ni/SUM[31] (RV32I_DW01_inc_2)
+                                                          0.00       2.77 f
+  U3887/Z (MUX2_X2)                                       0.07       2.83 f
+  execute_stage_1/alu_inst/add_sub_1/add_56/B[31] (RV32I_DW01_add_3)
+                                                          0.00       2.83 f
+  execute_stage_1/alu_inst/add_sub_1/add_56/U397/ZN (OR2_X1)
+                                                          0.05       2.88 f
+  execute_stage_1/alu_inst/add_sub_1/add_56/U350/ZN (AND2_X1)
+                                                          0.04       2.92 f
+  execute_stage_1/alu_inst/add_sub_1/add_56/U349/ZN (XNOR2_X1)
+                                                          0.05       2.98 f
+  execute_stage_1/alu_inst/add_sub_1/add_56/SUM[31] (RV32I_DW01_add_3)
+                                                          0.00       2.98 f
+  U8143/ZN (AOI221_X1)                                    0.06       3.04 r
+  U8144/ZN (NAND2_X1)                                     0.03       3.07 f
+  execute_stage_1/alu_result_mem_reg[0]/D (DFFR_X1)       0.01       3.08 f
+  data arrival time                                                  3.08
+
+  clock MY_CLK (rise edge)                                2.99       2.99
+  clock network delay (ideal)                             0.00       2.99
+  clock uncertainty                                      -0.07       2.92
+  execute_stage_1/alu_result_mem_reg[0]/CK (DFFR_X1)      0.00       2.92 r
+  library setup time                                     -0.04       2.88
+  data required time                                                 2.88
+  --------------------------------------------------------------------------
+  data required time                                                 2.88
+  data arrival time                                                 -3.08
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+1

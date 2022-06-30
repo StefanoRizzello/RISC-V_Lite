@@ -1,0 +1,88 @@
+m255
+13
+cModel Technology
+d/home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra_no_abs/modelsim
+T_opt
+V=7fN]o`f<XZ[Ya3@bQicR0
+06 8 4 ./work rv32i_tb arch 0
+o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.2g -sdftyp /rv32i_tb/processor=../innovus/RV32I.sdf -suppress 1948
+tExplicit 1
+OE;O;6.2g;35
+Eram
+w1644690715
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra_no_abs/hdl/src/ram.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra_no_abs/hdl/src/ram.vhd
+l0
+L28
+VS]lSWXa14IkAWMo^@B<`A0
+OE;C;6.2g;35
+32
+o-work work -2002 -explicit
+tExplicit 1
+Artl
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work ram S]lSWXa14IkAWMo^@B<`A0
+l44
+L39
+VIh]0zi^T?<4N0;RG;@cDn3
+OE;C;6.2g;35
+32
+M3 ieee std_logic_1164
+M2 ieee std_logic_textio
+M1 std textio
+o-work work -2002 -explicit
+tExplicit 1
+vRV32I
+IKc?42j]mDK3?@6dIaOQDI1
+VNH<6kcb=7LQ7=hAeBFz=[0
+w1644694942
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra_no_abs/innovus/RV32I.v
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra_no_abs/innovus/RV32I.v
+L0 15
+VNH<6kcb=7LQ7=hAeBFz=[0
+OE;L;6.2g;35
+r1
+31
+o-work work
+n@r@v32@i
+Erv32i_tb
+w1644694301
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra_no_abs/hdl/tb/RV32I_tb.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt_ultra_no_abs/hdl/tb/RV32I_tb.vhd
+l0
+L26
+Vd9LzTGdgHYLLGmX]WPYoo0
+OE;C;6.2g;35
+32
+o-work work -2002 -explicit
+tExplicit 1
+Aarch
+DE work ram S]lSWXa14IkAWMo^@B<`A0
+DP verilog vl_types EL`7Km5528[`SUe@0N=SW0
+DE work rv32i NH<6kcb=7LQ7=hAeBFz=[0
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work rv32i_tb d9LzTGdgHYLLGmX]WPYoo0
+l60
+L32
+VGh@b@@k;1`^Wa4Y4^R05E1
+OE;C;6.2g;35
+32
+M5 ieee std_logic_1164
+M4 ieee numeric_std
+M3 ieee std_logic_textio
+M2 std textio
+M1 verilog vl_types
+o-work work -2002 -explicit
+tExplicit 1

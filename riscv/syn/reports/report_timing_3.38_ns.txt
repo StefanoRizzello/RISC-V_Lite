@@ -1,0 +1,105 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'RV32I' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RV32I
+Version: O-2018.06-SP4
+Date   : Sat Feb 12 17:15:30 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: decode_stage_1/read_data1_execute_reg[1]
+              (rising edge-triggered flip-flop clocked by MY_CLK')
+  Endpoint: execute_stage_1/alu_result_mem_reg[31]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  RV32I              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK' (rise edge)                               1.69       1.69
+  clock network delay (ideal)                             0.00       1.69
+  decode_stage_1/read_data1_execute_reg[1]/CK (DFFR_X1)
+                                                          0.00       1.69 r
+  decode_stage_1/read_data1_execute_reg[1]/QN (DFFR_X1)
+                                                          0.07       1.76 r
+  U3791/ZN (OAI221_X1)                                    0.07       1.82 f
+  U3846/ZN (INV_X1)                                       0.05       1.88 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/A[1] (RV32I_DW01_inc_0)
+                                                          0.00       1.88 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_1/CO (HA_X1)
+                                                          0.06       1.94 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_2/CO (HA_X1)
+                                                          0.06       2.00 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_3/CO (HA_X1)
+                                                          0.06       2.06 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_4/CO (HA_X1)
+                                                          0.06       2.13 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_5/CO (HA_X1)
+                                                          0.06       2.19 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_6/CO (HA_X1)
+                                                          0.06       2.25 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_7/CO (HA_X1)
+                                                          0.06       2.31 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_8/CO (HA_X1)
+                                                          0.06       2.37 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_9/CO (HA_X1)
+                                                          0.06       2.43 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_10/CO (HA_X1)
+                                                          0.06       2.49 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_11/CO (HA_X1)
+                                                          0.06       2.55 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_12/CO (HA_X1)
+                                                          0.06       2.62 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_13/CO (HA_X1)
+                                                          0.06       2.68 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_14/CO (HA_X1)
+                                                          0.06       2.74 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U4/ZN (AND2_X2)
+                                                          0.05       2.79 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U8/ZN (AND4_X2)
+                                                          0.07       2.86 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U6/ZN (AND2_X2)
+                                                          0.05       2.91 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U9/ZN (AND4_X2)
+                                                          0.07       2.98 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1/ZN (AND4_X1)
+                                                          0.07       3.06 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U1_1_30/CO (HA_X1)
+                                                          0.06       3.11 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/U7/ZN (XNOR2_X1)
+                                                          0.05       3.17 r
+  add_0_root_execute_stage_1/absolute_value_1/add_52_ni/SUM[31] (RV32I_DW01_inc_0)
+                                                          0.00       3.17 r
+  U3852/ZN (NAND2_X1)                                     0.03       3.19 f
+  U3834/ZN (AND2_X1)                                      0.04       3.23 f
+  U3863/ZN (NAND2_X1)                                     0.03       3.26 r
+  execute_stage_1/alu_result_mem_reg[31]/D (DFFR_X1)      0.01       3.27 r
+  data arrival time                                                  3.27
+
+  clock MY_CLK (rise edge)                                3.38       3.38
+  clock network delay (ideal)                             0.00       3.38
+  clock uncertainty                                      -0.07       3.31
+  execute_stage_1/alu_result_mem_reg[31]/CK (DFFR_X1)     0.00       3.31 r
+  library setup time                                     -0.03       3.28
+  data required time                                                 3.28
+  --------------------------------------------------------------------------
+  data required time                                                 3.28
+  data arrival time                                                 -3.27
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+1

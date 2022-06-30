@@ -1,0 +1,99 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'RV32I' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RV32I
+Version: O-2018.06-SP4
+Date   : Sat Feb 12 19:35:19 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: fetch_stage_1/instruction_decode_int_reg[5]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: fetch_stage_1/PC/Q_reg[31]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  RV32I              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  fetch_stage_1/instruction_decode_int_reg[5]/CK (DFFR_X1)
+                                                          0.00 #     0.00 r
+  fetch_stage_1/instruction_decode_int_reg[5]/Q (DFFR_X1)
+                                                          0.10       0.10 f
+  U3825/ZN (AND4_X1)                                      0.05       0.16 f
+  U5764/ZN (NAND2_X1)                                     0.03       0.19 r
+  U7559/ZN (OAI22_X1)                                     0.04       0.23 f
+  decode_stage_1/add_146/B[0] (RV32I_DW01_add_1)          0.00       0.23 f
+  decode_stage_1/add_146/U43/ZN (AND2_X1)                 0.05       0.28 f
+  decode_stage_1/add_146/U1_1/CO (FA_X1)                  0.10       0.38 f
+  decode_stage_1/add_146/U1_2/CO (FA_X1)                  0.09       0.47 f
+  decode_stage_1/add_146/U1_3/CO (FA_X1)                  0.09       0.56 f
+  decode_stage_1/add_146/U1_4/CO (FA_X1)                  0.09       0.65 f
+  decode_stage_1/add_146/U1_5/CO (FA_X1)                  0.10       0.75 f
+  decode_stage_1/add_146/U18/ZN (NAND2_X1)                0.03       0.79 r
+  decode_stage_1/add_146/U20/ZN (NAND3_X1)                0.04       0.82 f
+  decode_stage_1/add_146/U1_7/CO (FA_X1)                  0.09       0.91 f
+  decode_stage_1/add_146/U1_8/CO (FA_X1)                  0.09       1.00 f
+  decode_stage_1/add_146/U1_9/CO (FA_X1)                  0.09       1.09 f
+  decode_stage_1/add_146/U1_10/CO (FA_X1)                 0.09       1.19 f
+  decode_stage_1/add_146/U1_11/CO (FA_X1)                 0.09       1.28 f
+  decode_stage_1/add_146/U1_12/CO (FA_X1)                 0.09       1.37 f
+  decode_stage_1/add_146/U1_13/CO (FA_X1)                 0.10       1.47 f
+  decode_stage_1/add_146/U26/ZN (NAND2_X1)                0.03       1.50 r
+  decode_stage_1/add_146/U28/ZN (NAND3_X1)                0.04       1.54 f
+  decode_stage_1/add_146/U33/ZN (NAND2_X1)                0.03       1.58 r
+  decode_stage_1/add_146/U35/ZN (NAND3_X1)                0.04       1.62 f
+  decode_stage_1/add_146/U39/ZN (NAND2_X1)                0.03       1.65 r
+  decode_stage_1/add_146/U41/ZN (NAND3_X1)                0.04       1.69 f
+  decode_stage_1/add_146/U12/ZN (NAND2_X1)                0.03       1.73 r
+  decode_stage_1/add_146/U14/ZN (NAND3_X1)                0.04       1.77 f
+  decode_stage_1/add_146/U1_18/CO (FA_X1)                 0.09       1.86 f
+  decode_stage_1/add_146/U1_19/CO (FA_X1)                 0.09       1.95 f
+  decode_stage_1/add_146/U1_20/CO (FA_X1)                 0.09       2.04 f
+  decode_stage_1/add_146/U1_21/CO (FA_X1)                 0.09       2.13 f
+  decode_stage_1/add_146/U1_22/CO (FA_X1)                 0.09       2.22 f
+  decode_stage_1/add_146/U1_23/CO (FA_X1)                 0.10       2.32 f
+  decode_stage_1/add_146/U6/ZN (NAND2_X1)                 0.03       2.35 r
+  decode_stage_1/add_146/U8/ZN (NAND3_X1)                 0.04       2.39 f
+  decode_stage_1/add_146/U1_25/CO (FA_X1)                 0.09       2.48 f
+  decode_stage_1/add_146/U1_26/CO (FA_X1)                 0.09       2.57 f
+  decode_stage_1/add_146/U1_27/CO (FA_X1)                 0.09       2.66 f
+  decode_stage_1/add_146/U1_28/CO (FA_X1)                 0.09       2.75 f
+  decode_stage_1/add_146/U1_29/CO (FA_X1)                 0.09       2.84 f
+  decode_stage_1/add_146/U1_30/CO (FA_X1)                 0.09       2.93 f
+  decode_stage_1/add_146/U22/Z (XOR2_X1)                  0.07       3.00 f
+  decode_stage_1/add_146/SUM[31] (RV32I_DW01_add_1)       0.00       3.00 f
+  U6022/ZN (AOI22_X1)                                     0.05       3.05 r
+  U3790/ZN (NAND2_X1)                                     0.03       3.08 f
+  fetch_stage_1/PC/Q_reg[31]/D (DFFR_X1)                  0.01       3.09 f
+  data arrival time                                                  3.09
+
+  clock MY_CLK (rise edge)                                3.20       3.20
+  clock network delay (ideal)                             0.00       3.20
+  clock uncertainty                                      -0.07       3.13
+  fetch_stage_1/PC/Q_reg[31]/CK (DFFR_X1)                 0.00       3.13 r
+  library setup time                                     -0.04       3.09
+  data required time                                                 3.09
+  --------------------------------------------------------------------------
+  data required time                                                 3.09
+  data arrival time                                                 -3.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

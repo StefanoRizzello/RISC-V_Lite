@@ -1,0 +1,13 @@
+ 
+****************************************
+Report : resources
+Design : RV32I
+Version: O-2018.06-SP4
+Date   : Sun Feb 13 18:25:48 2022
+****************************************
+
+
+No resource sharing information to report.
+
+No implementations to report
+1

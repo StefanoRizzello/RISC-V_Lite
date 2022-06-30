@@ -1,0 +1,895 @@
+m255
+13
+cModel Technology
+d/home/isa18_2021_2022/github/isa/lab3/riscv_opt/sim
+T_opt
+VBijOjXn?iSA]08jPc20KT1
+06 8 4 ./work rv32i_tb arch 0
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OE;O;6.2g;35
+Eabsolute_value
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/absolute_value.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/absolute_value.vhd
+l0
+L28
+V6R0Mb;7i1cN2le6lf7e2;1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work absolute_value 6R0Mb;7i1cN2le6lf7e2;1
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l46
+L38
+VIS8d`jHlJXd_AR?jPOV<b0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Eadd_sub
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/add_sub.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/add_sub.vhd
+l0
+L25
+V]VkDOD?@5<ff1Q]I8]Mnm3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work add_sub ]VkDOD?@5<ff1Q]I8]Mnm3
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l45
+L37
+VbCmXcjOhXPgh?nca82=d70
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Ealu
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/alu.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/alu.vhd
+l0
+L23
+V9EjROH`@0]7L:LkiW6GZz0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work barrel_shifter 03S]DCaR=>CSmh@LVb@5a3
+DE work add_sub ]VkDOD?@5<ff1Q]I8]Mnm3
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work alu 9EjROH`@0]7L:LkiW6GZz0
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l56
+L36
+VcoTTRdEc_U?7onh2ol9RO1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Ealu_control
+w1644318626
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/alu_control.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/alu_control.vhd
+l0
+L24
+VNXP[IV1a2QTi=:7g5Gmlm0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work alu_control NXP[IV1a2QTi=:7g5Gmlm0
+32
+M1 ieee std_logic_1164
+l44
+L35
+VC9Unkl_AA1m?Dc@F]K_:00
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Ebarrel_shifter
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/barrel_shifter.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/barrel_shifter.vhd
+l0
+L28
+V03S]DCaR=>CSmh@LVb@5a3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work mux_2to1_bit TD_eFI5N;e?Ld7Gc;DC213
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work barrel_shifter 03S]DCaR=>CSmh@LVb@5a3
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l59
+L39
+VI67j`MlDFgVf7[IfNG@7l2
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Ebranch_forwarding_unit
+w1644318626
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/branch_forwarding_unit.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/branch_forwarding_unit.vhd
+l0
+L26
+Ve=dhEb0i5:kFQ1]D?bozO1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work branch_forwarding_unit e=dhEb0i5:kFQ1]D?bozO1
+32
+M1 ieee std_logic_1164
+l49
+L43
+V<<f?1?;n@?@>FLdDmkl000
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Econtrol
+w1644318626
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/control.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/control.vhd
+l0
+L23
+VgPWc2WnH]OeWDGd@11gHH2
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work control gPWc2WnH]OeWDGd@11gHH2
+32
+M1 ieee std_logic_1164
+l49
+L41
+Ve<>>lZOW5NU2T6=3jEmW82
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Edec_5to32
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/dec_5to32.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/dec_5to32.vhd
+l0
+L23
+VAkA9Sak4^SW@XEV1Wh^S;2
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Aarch
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work dec_5to32 AkA9Sak4^SW@XEV1Wh^S;2
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l31
+L29
+VYfa9Hk9JR9cARDAl6iLWg3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Edecode_stage
+w1644538193
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/decode_stage.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/decode_stage.vhd
+l0
+L24
+V`gj^4gjIVDUU_O<23C@bN0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work equality_checker lSUgKP_aE<e^?<6h>3emG1
+DE work mux_4to1 Kn3]iPDhjOd6LYTn^FN_50
+DE work immediate_generator GFYb7PP8TfVT;71]RYB9I2
+DE work reg_file KlMYUc:1[zBdH<h9MW1UZ3
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work decode_stage `gj^4gjIVDUU_O<23C@bN0
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l91
+L58
+VcTU@EaY^R]XZ=IKno[aSi1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Edecode_stage_control
+w1644538193
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/decode_stage_control.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/decode_stage_control.vhd
+l0
+L24
+VaC]T@TB^18^E<@GQUeYCl1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work branch_forwarding_unit e=dhEb0i5:kFQ1]D?bozO1
+DE work mux_2to1_stall i:Y13G[88@<I]DZ_YbAnS2
+DE work hazard_unit :@2[F3R0DCedEc0T9he7b0
+DE work control gPWc2WnH]OeWDGd@11gHH2
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work decode_stage_control aC]T@TB^18^E<@GQUeYCl1
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l113
+L62
+Vij[XBjoWPZX@f_FgXkzek2
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Eequality_checker
+w1644318626
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/equality_checker.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/equality_checker.vhd
+l0
+L23
+VlSUgKP_aE<e^?<6h>3emG1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work unary_and 3P5[E6W5CV[l;z0bnb[O_0
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work equality_checker lSUgKP_aE<e^?<6h>3emG1
+32
+M1 ieee std_logic_1164
+l40
+L33
+VKmn[lYY8P=44ZlGMaQCkW0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Eexecute_stage
+w1644538193
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/execute_stage.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/execute_stage.vhd
+l0
+L24
+VTeAza@;fAOQjP=jRZ8biK0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work absolute_value 6R0Mb;7i1cN2le6lf7e2;1
+DE work mux_4to1 Kn3]iPDhjOd6LYTn^FN_50
+DE work alu 9EjROH`@0]7L:LkiW6GZz0
+DE work mux_2to1 1eQG1cGKImgO_aRI@R2RL2
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work execute_stage TeAza@;fAOQjP=jRZ8biK0
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l83
+L53
+V`i?1HQb3hYk4VOeaMjeZ50
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Eexecute_stage_control
+w1644538193
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/execute_stage_control.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/execute_stage_control.vhd
+l0
+L24
+VokPT6b@AdzcA4k<00>jNL3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work forwarding_unit 7iQoFN[4JOSk4kZhBZ:?I1
+DE work alu_control NXP[IV1a2QTi=:7g5Gmlm0
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work execute_stage_control okPT6b@AdzcA4k<00>jNL3
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l70
+L55
+V^>UZ2Nm<fU@]3]cCa[Dk@1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Efetch_stage
+w1644504050
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/fetch_stage.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/fetch_stage.vhd
+l0
+L25
+VGH][g?bLk37fAeK^@J1AM3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work mux_2to1 1eQG1cGKImgO_aRI@R2RL2
+DE work reg KYkb7^TJQej;G=9JdA4W[0
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work fetch_stage GH][g?bLk37fAeK^@J1AM3
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l72
+L45
+Vh40M2OMfK36j_VAPWV?CV1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Eforwarding_unit
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/forwarding_unit.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/forwarding_unit.vhd
+l0
+L24
+V7iQoFN[4JOSk4kZhBZ:?I1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work forwarding_unit 7iQoFN[4JOSk4kZhBZ:?I1
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l52
+L41
+VU8bnWG9k5I<P[8UHG822j3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Ehazard_unit
+w1644633888
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/hazard_unit.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/hazard_unit.vhd
+l0
+L24
+V:@2[F3R0DCedEc0T9he7b0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work hazard_unit :@2[F3R0DCedEc0T9he7b0
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l53
+L47
+VZ@nFR`PZH>4OZoeL<0Vog0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Eimmediate_generator
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/immediate_generator.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/immediate_generator.vhd
+l0
+L24
+VGFYb7PP8TfVT;71]RYB9I2
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work immediate_generator GFYb7PP8TfVT;71]RYB9I2
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l42
+L35
+V`h`]?aQ2L<HDEEkIagC5l0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Emem_stage
+w1644538193
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mem_stage.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mem_stage.vhd
+l0
+L23
+Vbj64Oa6X68Vgb=ajTdXza1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mem_stage bj64Oa6X68Vgb=ajTdXza1
+32
+M1 ieee std_logic_1164
+l46
+L40
+VaOnf:AAIeeE83Y12EZ>TD1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Emem_stage_control
+w1644538193
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mem_stage_control.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mem_stage_control.vhd
+l0
+L23
+VLPjOeF[H?fhSTfXG77o1Z1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mem_stage_control LPjOeF[H?fhSTfXG77o1Z1
+32
+M1 ieee std_logic_1164
+l44
+L37
+VLKS:@Zz;SM`oHz=EW9=?W1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Emux_2to1
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mux_2to1.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mux_2to1.vhd
+l0
+L6
+V1eQG1cGKImgO_aRI@R2RL2
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Aarch
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mux_2to1 1eQG1cGKImgO_aRI@R2RL2
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l15
+L14
+V_C[?;oXDbfHOX=]USMRP]0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Emux_2to1_bit
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mux_2to1_bit.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mux_2to1_bit.vhd
+l0
+L28
+VTD_eFI5N;e?Ld7Gc;DC213
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mux_2to1_bit TD_eFI5N;e?Ld7Gc;DC213
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l46
+L40
+VKKF9;PK^@h1PShTOa=TgB1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Emux_2to1_stall
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mux_2to1_stall.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mux_2to1_stall.vhd
+l0
+L23
+Vi:Y13G[88@<I]DZ_YbAnS2
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mux_2to1_stall i:Y13G[88@<I]DZ_YbAnS2
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l41
+L35
+Vn3SPi7:DUS4b:3]5zo32Y1
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Emux_32to1
+w1644318626
+DP work param_pkg T::O;Zz3D_mnEG[6^g6W72
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mux_32to1.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mux_32to1.vhd
+l0
+L6
+VoF^3Y:37NaKMNc`ZiJ7VH2
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Aarch
+DP work param_pkg T::O;Zz3D_mnEG[6^g6W72
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mux_32to1 oF^3Y:37NaKMNc`ZiJ7VH2
+32
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param_pkg
+l15
+L13
+VggWVV[d;YTDKPJEEk5`?a0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Emux_4to1
+w1644318626
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mux_4to1.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/mux_4to1.vhd
+l0
+L23
+VKn3]iPDhjOd6LYTn^FN_50
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work mux_4to1 Kn3]iPDhjOd6LYTn^FN_50
+32
+M1 ieee std_logic_1164
+l43
+L37
+VQfM0f]gg@Y^i9dT33>Sgj2
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Pparam_pkg
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+w1644318626
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/param_pkg.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/param_pkg.vhd
+l0
+L5
+VT::O;Zz3D_mnEG[6^g6W72
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Eram
+w1644318626
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/ram.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/ram.vhd
+l0
+L28
+VS]lSWXa14IkAWMo^@B<`A0
+OE;C;6.2g;35
+32
+o-work work -2002 -explicit
+tExplicit 1
+Artl
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work ram S]lSWXa14IkAWMo^@B<`A0
+l44
+L39
+VIh]0zi^T?<4N0;RG;@cDn3
+OE;C;6.2g;35
+32
+M3 ieee std_logic_1164
+M2 ieee std_logic_textio
+M1 std textio
+o-work work -2002 -explicit
+tExplicit 1
+Ereg
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/reg.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/reg.vhd
+l0
+L5
+VKYkb7^TJQej;G=9JdA4W[0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Aarch
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work reg KYkb7^TJQej;G=9JdA4W[0
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l15
+L13
+VlW]?]in9UzFe<WIJ93@lN3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Ereg_file
+w1644318626
+DP work param_pkg T::O;Zz3D_mnEG[6^g6W72
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/reg_file.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/reg_file.vhd
+l0
+L23
+VKlMYUc:1[zBdH<h9MW1UZ3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Aarch
+DE work mux_32to1 oF^3Y:37NaKMNc`ZiJ7VH2
+DE work dec_5to32 AkA9Sak4^SW@XEV1Wh^S;2
+DE work reg KYkb7^TJQej;G=9JdA4W[0
+DP work param_pkg T::O;Zz3D_mnEG[6^g6W72
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work reg_file KlMYUc:1[zBdH<h9MW1UZ3
+32
+M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 work param_pkg
+l66
+L34
+Vn@ADfPBDlWP_i]5kl=NMf3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Erv32i
+w1644633619
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/RV32I_debug.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/RV32I_debug.vhd
+l0
+L24
+VNQCCSUGKJe_jO7f9L<igY3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work rv32i_control 2Ye^GfmzLBoZ>eoLOaoU`3
+DE work wb_stage [5K_<XjieBBijQmhjJ^NF3
+DE work mem_stage bj64Oa6X68Vgb=ajTdXza1
+DE work execute_stage TeAza@;fAOQjP=jRZ8biK0
+DE work decode_stage `gj^4gjIVDUU_O<23C@bN0
+DE work fetch_stage GH][g?bLk37fAeK^@J1AM3
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work rv32i NQCCSUGKJe_jO7f9L<igY3
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l115
+L53
+Vnn0>z74L?2b0R1bSc1K5P0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Erv32i_control
+w1644538193
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/RV32I_control.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/RV32I_control.vhd
+l0
+L24
+V2Ye^GfmzLBoZ>eoLOaoU`3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work mem_stage_control LPjOeF[H?fhSTfXG77o1Z1
+DE work execute_stage_control okPT6b@AdzcA4k<00>jNL3
+DE work decode_stage_control aC]T@TB^18^E<@GQUeYCl1
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work rv32i_control 2Ye^GfmzLBoZ>eoLOaoU`3
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l92
+L71
+V>G_ZAiRQEBcoCbWG5^z>;0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Erv32i_tb
+w1644423843
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/RV32I_tb.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/RV32I_tb.vhd
+l0
+L27
+VKONSZUAoj>JUXUmmMdea91
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Aarch
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DE work rv32i NQCCSUGKJe_jO7f9L<igY3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work rv32i_tb KONSZUAoj>JUXUmmMdea91
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l49
+L33
+Vi0bG5Pj=Z>SBzVom0GmS10
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Crv32i_tb_arch_cfg
+aarch
+erv32i_tb
+DE work rv32i NQCCSUGKJe_jO7f9L<igY3
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DA work rv32i_tb arch i0bG5Pj=Z>SBzVom0GmS10
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work rv32i_tb KONSZUAoj>JUXUmmMdea91
+w1644423843
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/RV32I_tb.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/RV32I_tb.vhd
+l0
+L81
+V6d9AfPJE9077jgT[BJI5d0
+OE;C;6.2g;35
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+o-work work -2002 -explicit
+tExplicit 1
+Eunary_and
+w1644318626
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/unary_AND.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/unary_AND.vhd
+l0
+L23
+V3P5[E6W5CV[l;z0bnb[O_0
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work unary_and 3P5[E6W5CV[l;z0bnb[O_0
+32
+M1 ieee std_logic_1164
+l41
+L33
+VbOWXe2Pim]lAgNi_DP6g30
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Ewb_stage
+w1644318626
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+8/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/wb_stage.vhd
+F/home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/wb_stage.vhd
+l0
+L24
+V[5K_<XjieBBijQmhjJ^NF3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1
+Astr
+DE work mux_4to1 Kn3]iPDhjOd6LYTn^FN_50
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work wb_stage [5K_<XjieBBijQmhjJ^NF3
+32
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+l49
+L41
+V4?RE?UR?PVFHQ=EkSoVST3
+OE;C;6.2g;35
+o-work work -2002 -explicit
+tExplicit 1

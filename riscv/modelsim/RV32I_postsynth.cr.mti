@@ -1,0 +1,31 @@
+/home/isa18_2021_2022/github/isa/lab3/riscv_opt/netlist/RV32I.v {1 {vlog -work work -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt/netlist/RV32I.v
+Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+-- Compiling module RV32I
+
+Top level modules:
+	RV32I
+
+} {} {}} /home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/ram.vhd {2 {vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/ram.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Compiling entity ram
+-- Compiling architecture rtl of ram
+** Warning: [9] /home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/src/ram.vhd(47): (vcom-1013) Initial value of "data_file" depends on value of signal "filename".
+
+} {} {}} /home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/tb/RV32I_tb.vhd {1 {vcom -work work -2002 -explicit -vopt /home/isa18_2021_2022/github/isa/lab3/riscv_opt/hdl/tb/RV32I_tb.vhd
+Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Compiling entity rv32i_tb
+-- Compiling architecture arch of rv32i_tb
+-- Loading package vl_types
+-- Loading entity rv32i
+-- Loading entity ram
+
+} {} {}}
